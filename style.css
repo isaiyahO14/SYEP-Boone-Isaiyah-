@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:antiquewhite;
+    background-color:rgb(9, 88, 62);
     text-align:center;
     line-height:2;
 }
@@ -16,4 +16,32 @@ body{
 
 .accent{
     color:azure;
+}
+.section{
+    font:250px;
+}
+#weak{
+    color:rgb(119, 21, 21)
+}
+#skills{
+   color: rgb(219, 186, 37);
+}
+#about{
+    color: rgb(58, 125, 184);
+}  
+#EXP{
+    color: rgb(197, 121, 34);
+}
+section{
+     margin: 10px;
+
+}
+div{
+    border: 2px double rgb(58, 105, 58);
+}
+div{
+    padding: 10px;
+}
+p{
+    border: solid rgb(99, 126, 58);
 }
