@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 9px;
+    box-sizing: 8px;
+    box-sizing: 4px border-box;
 }
 
 body{
@@ -20,28 +20,45 @@ body{
 .section{
     font:250px;
 }
+
 #weak{
     color:rgb(119, 21, 21)
 }
+
 #skills{
    color: rgb(219, 186, 37);
 }
+
 #about{
     color: rgb(58, 125, 184);
 }  
+
 #EXP{
     color: rgb(197, 121, 34);
 }
-section{
-     margin: 10px;
 
-}
 div{
-    border: 2px double rgb(58, 105, 58);
+    border: 0px double rgb(58, 105, 58);
 }
-div{
-    padding: 10px;
-}
+
 p{
     border: solid rgb(99, 126, 58);
+}
+@media screen (maz-width: 768px){
+    body{background-color:yellow;}
+}
+
+.grid{
+   display: flex; 
+   justify-content:center;
+   justify-content:space-around;
+   gap: 15px
+   flex-wrap:wrap;
+}
+
+.grid div{
+    background-color:yellow;
+    border-radius: 100px;
+    padding: 10px;
+    min-width: 100px;
 }
