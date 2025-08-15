@@ -1,64 +1,69 @@
 *{
-    margin: 9px;
-    box-sizing: 8px;
-    box-sizing: 4px border-box;
+    margin: 10px;
+    box-sizing: 10px;
+    box-sizing: 6px border-box;
 }
 
 body{
-    background-color:rgb(9, 88, 62);
+    background-color:rgb(207, 31, 31);
     text-align:center;
-    line-height:2;
+    line-height:15px;;
 }
 
 .hero img{
-    border-radius:20%;
+    border-radius:10%;
 }
 
 .accent{
-    color:azure;
+    color:rgb(209, 255, 255);
 }
 .section{
     font:250px;
 }
 
 #weak{
-    color:rgb(119, 21, 21)
+    color:rgb(7, 8, 8);
 }
 
 #skills{
-   color: rgb(219, 186, 37);
+   color: rgb(7, 8, 8);
 }
 
 #about{
-    color: rgb(58, 125, 184);
+    color: rgb(7, 8, 8);
 }  
 
 #EXP{
-    color: rgb(197, 121, 34);
+    color:rgb(7, 8, 8);
 }
 
-div{
-    border: 0px double rgb(58, 105, 58);
-}
+.section{
+    border: 5px double rgb(7, 8, 8);
+} 
 
-p{
-    border: solid rgb(99, 126, 58);
-}
-@media screen (maz-width: 768px){
-    body{background-color:yellow;}
+@media screen (max-width: 768px){
+    body {background-color:blue;}
 }
 
 .grid{
    display: flex; 
    justify-content:center;
    justify-content:space-around;
-   gap: 15px
-   flex-wrap:wrap;
+   gap: 8px;
+   flex-wrap: wrap;
 }
 
 .grid div{
-    background-color:yellow;
+    background-color:white;
     border-radius: 100px;
-    padding: 10px;
+    padding: 25px;
     min-width: 100px;
+}
+
+p{
+    color:white;
+}
+
+#weak div{
+    color:white;
 }

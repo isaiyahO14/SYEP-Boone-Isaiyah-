@@ -1,0 +1,17 @@
+*{
+    margin: 9px;
+    box-sizing: 8px;
+    box-sizing: 4px border-box;
+}
+
+body{
+    background-color:rgb(208, 241, 241);
+    text-align:center;
+    line: height 5px;;
+}
+div{
+    color: white;
+}
+#info{
+    color: white;
+}
